@@ -17,7 +17,7 @@ export default class AddPanel extends React.Component{
                     <button type="submit" className="btn add-panel__btn">+</button>
                 </form>
                 <div className="add-panel__info">
-                    Записей 0, выполнено 0
+                    Записей 0 / Выполнено 0
                 </div>
             </div>
         )

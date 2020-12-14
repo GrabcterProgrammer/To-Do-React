@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./appElem.css";
 
 export default class Elem extends React.Component{
     constructor(props) {
@@ -9,13 +10,13 @@ export default class Elem extends React.Component{
 
     render() {
         return (
-            <div className="elem-block">
-                <ul className="elem-block__ul">
+            <ul className="elem-block">
 
-                    <li></li>
+                <li className="elem-block__item elem-block__item_active" title="Двойной клик удалить">Вынести мусор</li>
+                <li className="elem-block__item">Помыть посуду</li>
+                <li className="elem-block__item">Сделать домашнее задание</li>
 
-                </ul>
-            </div>
+            </ul>
         )
     }
 }

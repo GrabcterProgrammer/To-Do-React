@@ -1,0 +1,37 @@
+.elem-block{
+    display: block;
+    margin-top: 35px;
+    padding: 0;
+}
+
+.elem-block__item{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    border: 2px solid #e8ebed;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: inherit;
+    text-align: center;
+    line-height: calc(20px * 1.5);
+
+    list-style: none;
+    cursor: pointer;
+    user-select: none;
+
+    transition: all .5s;
+}
+
+.elem-block__item_active{
+    background: #2ecc71;
+    color: white;
+    border: none;
+    transition: all .5s;
+    text-decoration: line-through;
+}
+
+.elem-block__item_active:hover{
+    background: darkred;
+}
