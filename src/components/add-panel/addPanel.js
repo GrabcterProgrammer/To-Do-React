@@ -9,7 +9,13 @@ export default class AddPanel extends React.Component{
     }
 
 
+
     render() {
+
+        const {data} = this.props;
+
+        const dataActive = data.filter(item => item.active).length;
+
         return (
             <div className="add-panel">
                 <form className="add-panel__form">
@@ -17,7 +23,7 @@ export default class AddPanel extends React.Component{
                     <button type="submit" className="btn add-panel__btn">+</button>
                 </form>
                 <div className="add-panel__info">
-                    Записей 0 / Выполнено 0
+                    Записей {data.length} / Выполнено {dataActive}
                 </div>
             </div>
         )

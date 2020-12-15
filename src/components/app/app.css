@@ -1,12 +1,14 @@
 body {
+    position: relative;
     background: linear-gradient(45deg, #fd746c, #ff9068) center center/cover;
     font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+
+    /*overflow: hidden;*/
 }
 
 *{
