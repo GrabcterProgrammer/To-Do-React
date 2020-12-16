@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App (To-Do-List)
+
+My first self-written project To-Do-List in ReactJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
