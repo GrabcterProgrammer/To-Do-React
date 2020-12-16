@@ -10,7 +10,7 @@ export default class Elem extends React.Component{
 
     render() {
 
-        const {data, onToggleActive, onDelete} = this.props;
+        const {data, onToggleActive, onDelete, onAddData} = this.props;
 
         const elem = data.map(item => {
 
